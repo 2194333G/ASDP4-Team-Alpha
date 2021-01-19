@@ -48,8 +48,7 @@ b = 2.61*10^-5.55;
 Jm = 1.91*10^-6;
 CTgain = 0.001;
 density = 1.225;
-diameter = 0.2; % should we change this to match bumblebee?
-
+diameter = 0.12; % Diameter = length of 2 blades
 
 
 
