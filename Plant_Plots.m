@@ -1,4 +1,5 @@
 %plots are just for yaw and heading.
+figure (1)
 
 subplot(2,1,1)
 hold on
