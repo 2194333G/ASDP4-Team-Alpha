@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/07/21||18:36:33" using="Simscape Multibody Link Version 7.2" from="SolidWorks 27.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="full_drone_well_constrained" uid="full_drone_well_constrained" version="330">
+<AssemblyFile name="full_drone_well_constrained.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="drone_propeller_2_tl_br-3" uid="drone_propeller_2_tl_br-3" entityUid="drone_propeller_2_tl_br*:*Défaut">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 0 1 0 6.9829626776862667e-15 0 -1</Rotation>
+<Translation>-0.033851205941811402 -0.11792576844745747 -0.12059224989420814</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_propeller_2_tl_br-4" uid="drone_propeller_2_tl_br-4" entityUid="drone_propeller_2_tl_br*:*Défaut">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 0 1 0 6.9829626776862667e-15 0 -1</Rotation>
+<Translation>-0.16820149436725712 0.016424519977984883 -0.12059224989420715</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_camera_and_proximity_sensor_weight-1" uid="drone_camera_and_proximity_sensor_weight-1" entityUid="drone_camera_and_proximity_sensor_weight*:*Défaut">
+<Transform>
+<Rotation>0 -1.04744440165294e-14 -1 1 -3.4914813388431334e-15 0 -3.4914813388431334e-15 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.053026350154535211 -0.059750624234735615 -0.11579224989420758</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_arm_single_test_2_tl_br-2" uid="drone_arm_single_test_2_tl_br-2" entityUid="drone_arm_single_test_2_tl_br*:*Défaut">
+<Transform>
+<Rotation>-0.70710678118654147 -0.70710678118655368 4.8672866219197404e-15 -0.70710678118655368 0.70710678118654147 -4.8672866219196568e-15 0 -6.8833827526759642e-15 -1</Rotation>
+<Translation>-0.10102635015453314 -0.050750624234736412 -0.10279224989420858</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_pillar_test_2-3" uid="drone_pillar_test_2-3" entityUid="drone_pillar_test_2*:*Défaut">
+<Transform>
+<Rotation>-0.88768025263361705 0.46046038818156559 0 -0.46046038818156559 -0.88768025263361705 0 0 0 1</Rotation>
+<Translation>-0.12064856333245992 -0.066483750116137122 -0.13079224989420837</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_antenna_test-1" uid="drone_antenna_test-1" entityUid="drone_antenna_test*:*Défaut">
+<Transform>
+<Rotation>0.095395122027193538 0.86075534891943739 -0.49999999999999462 0.99391466481009105 -0.11015279876355763 -6.1339822110539899e-15 -0.055076399381783464 -0.49695733240503953 -0.86602540378444182</Rotation>
+<Translation>-0.17875840096210188 -0.050750624234737488 -0.16609352008343048</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_pillar_test_2-4" uid="drone_pillar_test_2-4" entityUid="drone_pillar_test_2*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.12064856333246032 -0.03501749835333582 -0.13079224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_antenna_holder_test-1" uid="drone_antenna_holder_test-1" entityUid="drone_antenna_holder_test*:*Défaut">
+<Transform>
+<Rotation>-1.226796442210798e-14 0.99999999999999978 0 0.99999999999999978 1.226796442210798e-14 1.1817270955700085e-16 1.1817270955700045e-16 0 -1</Rotation>
+<Translation>-0.15102635015453328 -0.050750624234737217 -0.11079224989420836</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_camera_wall_test-1" uid="drone_camera_wall_test-1" entityUid="drone_camera_wall_test*:*Défaut">
+<Transform>
+<Rotation>-1.0000000000000002 0 -1.0602629885170245e-14 -1.0602629885170245e-14 0 1.0000000000000002 0 1 0</Rotation>
+<Translation>-0.053026350154533525 -0.041750624234735773 -0.13079224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_base_test_3-1" uid="drone_base_test_3-1" grounded="true" entityUid="drone_base_test_3*:*Défaut">
+<Transform>
+<Rotation>1.04744440165294e-14 1 0 -1 1.04744440165294e-14 0 0 0 1</Rotation>
+<Translation>-0.1410263501545336 -0.035750624234736683 -0.11079224989420836</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="drone_fc_test-1" uid="drone_fc_test-1" entityUid="drone_fc_test*:*Défaut">
+<Transform>
+<Rotation>0.70710678118654635 -0.70710678118654879 0 0.70710678118654879 0.70710678118654635 0 0 0 1</Rotation>
+<Translation>-0.09793446706249706 -0.074085148013891461 -0.11379224989420836</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_camera_wall_test-2" uid="drone_camera_wall_test-2" entityUid="drone_camera_wall_test*:*Défaut">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 -6.9829626776862667e-15 3.4914813388431334e-15 1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.053026350154533552 -0.062750624234736041 -0.13079224989420812</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_battery_cell_1-2" uid="drone_battery_cell_1-2" entityUid="drone_battery_cell_1*:*Défaut">
+<Transform>
+<Rotation>0 3.4914813388431334e-15 1 1 -3.4914813388431334e-15 0 3.4914813388431334e-15 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.14842635015453448 -0.037250624234732764 -0.14729224989420747</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_pillar_test_2-1" uid="drone_pillar_test_2-1" entityUid="drone_pillar_test_2*:*Défaut">
+<Transform>
+<Rotation>-0.43574027502990764 -0.90007244859336777 0 0.90007244859336777 -0.43574027502990764 0 0 0 1</Rotation>
+<Translation>-0.081404136976606575 -0.066483750116136692 -0.13079224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_top_test_3-1" uid="drone_top_test_3-1" entityUid="drone_top_test_3*:*Défaut">
+<Transform>
+<Rotation>1.0325074129013956e-14 1.0000000000000002 0 -1.0000000000000002 1.0325074129013956e-14 0 0 0 1</Rotation>
+<Translation>-0.14102635015453358 -0.035750624234736642 -0.13379224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_chip_2_test-1" uid="drone_chip_2_test-1" entityUid="drone_chip_2_test*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.13602635015453404 -0.05075062423473508 -0.11379224989420836</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_pillar_test_2-2" uid="drone_pillar_test_2-2" entityUid="drone_pillar_test_2*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.081404136976606895 -0.035017498353335411 -0.13079224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_arm_single_test_2_tr_bl-1" uid="drone_arm_single_test_2_tr_bl-1" entityUid="drone_arm_single_test_2_tr_bl*:*Défaut">
+<Transform>
+<Rotation>-0.70710678118655135 -0.70710678118654402 0 0.70710678118654402 -0.70710678118655135 0 0 0 1</Rotation>
+<Translation>-0.1010263501545336 -0.050750624234735961 -0.10679224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_arm_single_test_2_tr_bl-2" uid="drone_arm_single_test_2_tr_bl-2" entityUid="drone_arm_single_test_2_tr_bl*:*Défaut">
+<Transform>
+<Rotation>0.70710678118655623 0.70710678118653914 0 -0.70710678118653914 0.70710678118655623 0 0 0 1</Rotation>
+<Translation>-0.10102635015453325 -0.050750624234736676 -0.10679224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_arm_single_test_2_tl_br-3" uid="drone_arm_single_test_2_tl_br-3" entityUid="drone_arm_single_test_2_tl_br*:*Défaut">
+<Transform>
+<Rotation>0.70710678118654635 0.70710678118654879 -4.8672866219197089e-15 0.70710678118654879 -0.70710678118654635 4.8672866219196923e-15 0 -6.8833827526759674e-15 -1</Rotation>
+<Translation>-0.1010263501545345 -0.050750624234734684 -0.1027922498942081</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_motor_test_3-3" uid="drone_motor_test_3-3" entityUid="drone_motor_test_3*:*Défaut">
+<Transform>
+<Rotation>1 6.8833827526759674e-15 6.8833827526759642e-15 6.8833827526759674e-15 -1 0 6.8833827526759642e-15 0 -1</Rotation>
+<Translation>-0.16820149436725557 0.016424519977984414 -0.11079224989420948</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_motor_test_3-5" uid="drone_motor_test_3-5" entityUid="drone_motor_test_3*:*Défaut">
+<Transform>
+<Rotation>-1.4051260155412137e-14 1 0 1 1.4051260155412137e-14 1.1879803848348279e-16 1.1879803848349252e-16 0 -1</Rotation>
+<Translation>-0.16820149436725546 -0.11792576844745807 -0.11079224989420837</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_esc_1_1_test-3" uid="drone_esc_1_1_test-3" entityUid="drone_esc_1_1_test*:*Défaut">
+<Transform>
+<Rotation>-0.70710678118654413 0.70710678118655124 0 -0.70710678118655124 -0.70710678118654413 0 0 0 1</Rotation>
+<Translation>-0.13673524260445413 -0.077974235310418291 -0.10929224989420834</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_propeller_2_tr_bl-2" uid="drone_propeller_2_tr_bl-2" entityUid="drone_propeller_2_tr_bl*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.1682014943672554 -0.11792576844745807 -0.12059224989420837</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_battery_cell_1-1" uid="drone_battery_cell_1-1" entityUid="drone_battery_cell_1*:*Défaut">
+<Transform>
+<Rotation>0 3.4914813388431334e-15 1 1 -3.4914813388431334e-15 0 3.4914813388431334e-15 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.14842635015453456 -0.064250624234732753 -0.14729224989420789</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_motor_test_3-4" uid="drone_motor_test_3-4" entityUid="drone_motor_test_3*:*Défaut">
+<Transform>
+<Rotation>1.9262369477246466e-14 -1.0000000000000002 1.0594127220297001e-16 -1.0000000000000002 -1.9262369477246466e-14 0 0 -1.0594127220297093e-16 -1</Rotation>
+<Translation>-0.03385120594181204 0.016424519977986152 -0.11079224989420836</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_esc_1_1_test-1" uid="drone_esc_1_1_test-1" entityUid="drone_esc_1_1_test*:*Défaut">
+<Transform>
+<Rotation>-0.70710678118655135 -0.70710678118654402 0 0.70710678118654402 -0.70710678118655135 0 0 0 1</Rotation>
+<Translation>-0.048700448346728618 -0.094591244668301488 -0.10929224989420835</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_motor_test_3-2" uid="drone_motor_test_3-2" entityUid="drone_motor_test_3*:*Défaut">
+<Transform>
+<Rotation>-1 -6.8833827526759674e-15 0 -6.8833827526759674e-15 1 -6.8833827526759642e-15 0 -6.8833827526759642e-15 -1</Rotation>
+<Translation>-0.03385120594181034 -0.11792576844745831 -0.11079224989420755</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_propeller_2_tr_bl-1" uid="drone_propeller_2_tr_bl-1" entityUid="drone_propeller_2_tr_bl*:*Défaut">
+<Transform>
+<Rotation>0.99722066944860366 -0.074504606733266476 0 0.074504606733266476 0.99722066944860366 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.03385120594181204 0.016424519977986156 -0.12059224989420841</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_esc_1_1_test-4" uid="drone_esc_1_1_test-4" entityUid="drone_esc_1_1_test*:*Défaut">
+<Transform>
+<Rotation>-0.70710678118655135 -0.70710678118654402 0 0.70710678118654402 -0.70710678118655135 0 0 0 1</Rotation>
+<Translation>-0.12824996123021606 -0.015041731784815028 -0.10929224989420833</Translation>
+</Transform>
+</Instance>
+<Instance name="drone_esc_1_1_test-2" uid="drone_esc_1_1_test-2" entityUid="drone_esc_1_1_test*:*Défaut">
+<Transform>
+<Rotation>0.70710678118653902 -0.70710678118655634 0 0.70710678118655634 0.70710678118653902 0 0 0 1</Rotation>
+<Translation>-0.065317457704612919 -0.02352701315905394 -0.10929224989420835</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.025000000000000001 0.014999999999999986 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_chip_2_test-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.010000000000000002 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 -0.0050000000000000044 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_chip_2_test-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999811 0.010000000000000002 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_chip_2_test-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.023999999999999994 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_fc_test-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.030000000000000006 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.062183766184073563 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_fc_test-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0.0030000000000000027 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_fc_test-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_pillar_test_2-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.030733125881400654 0.059622213177926708 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_pillar_test_2-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_pillar_test_2-2</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>-0.00073312588140064805 0.059622213177926708 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_pillar_test_2-2</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_pillar_test_2-3</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.030733125881400654 0.020377786822073266 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_pillar_test_2-3</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_pillar_test_2-4</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>-0.00073312588140064805 0.020377786822073279 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_pillar_test_2-4</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_antenna_holder_test-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999975 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.020000000000000011 -0.010000000000000009 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_antenna_holder_test-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999975 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.010000000000000009 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_antenna_holder_test-1</Uid>
+</InstancePath>
+<Position>0.0049999999999999975 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_pillar_test_2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_top_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.030733125881400654 0.059622213177926708 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_top_test_3-1</Uid>
+</InstancePath>
+<Position>0.030733125881400668 0.05962221317792675 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.010000000000000009 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_top_test_3-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.010000000000000009 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.0010346410715657006 0.029923728368091651 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>-0.0027500000000000024 0.017000000000000001 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>-0.00073312588140064805 0.020377786822073279 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>0.0027499999999999886 0.025000000000000008 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.028965358928434305 0.029923728368091651 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>-0.0027499999999999955 0.016999999999999987 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.030733125881400654 0.020377786822073266 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0.0027500000000000094 0.024999999999999994 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.0010346410715657006 0.050076271631908309 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>-0.0027500000000000094 0.017000000000000001 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>-0.00073312588140064805 0.059622213177926708 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0.0027499999999999955 0.025000000000000022 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.030733125881400654 0.059622213177926708 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0.0027500000000000024 0.025000000000000001 0.0039999999999999897</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.028965358928434291 0.050076271631908323 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>-0.0027500000000000024 0.017000000000000008 0.0039999999999999897</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0.0042426406871192285 0.099242640687119327 0.0039999999999999897</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-2</Uid>
+</InstancePath>
+<Position>-0.0059999999999999984 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>-0.0042426406871192562 0.090757359312880703 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-2</Uid>
+</InstancePath>
+<Position>0.0059999999999999984 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>0.0042426406871192562 0.099242640687119327 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-3</Uid>
+</InstancePath>
+<Position>-0.0060000000000000053 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>-0.0042426406871192562 0.090757359312880675 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-3</Uid>
+</InstancePath>
+<Position>0.0059999999999999776 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-4</Uid>
+</InstancePath>
+<Position>0 0 -0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>-0.0042426406871193326 0.099242640687119313 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-4</Uid>
+</InstancePath>
+<Position>-0.0060000000000000019 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0.0042426406871193117 0.090757359312880787 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-4</Uid>
+</InstancePath>
+<Position>0.0060000000000000019 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-5</Uid>
+</InstancePath>
+<Position>0 0 -0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>-0.0042426406871193395 0.099242640687119271 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-5</Uid>
+</InstancePath>
+<Position>-0.0060000000000000053 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0.0042426406871193256 0.090757359312880759 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-5</Uid>
+</InstancePath>
+<Position>0.0060000000000000053 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-3</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-2</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-4</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-2</Uid>
+</InstancePath>
+<Position>0 0.095000000000000001 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-4</Uid>
+</InstancePath>
+<Position>0.023500000000000021 0 0.0025000000000000022</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-2</Uid>
+</InstancePath>
+<Position>0.023500000000000007 0 0.0025000000000000022</Position>
+<Axis>1.0000000000000004 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0 0.095000000000000057 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0 0.095000000000000001 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_arm_single_test_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0 0.095000000000000029 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_esc_1_1_test-3</Uid>
+</InstancePath>
+<Position>0.023500000000000021 0 0.0025000000000000022</Position>
+<Axis>1.0000000000000004 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-2</Uid>
+</InstancePath>
+<Position>0 0 0.011300000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_propeller_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0 0 0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-2</Uid>
+</InstancePath>
+<Position>0 0 0.0083000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_propeller_2_tl_br-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-3</Uid>
+</InstancePath>
+<Position>0 0 0.011300000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_propeller_2_tl_br-4</Uid>
+</InstancePath>
+<Position>0 0 0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-3</Uid>
+</InstancePath>
+<Position>0 0 0.0083000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_propeller_2_tl_br-4</Uid>
+</InstancePath>
+<Position>0 0 -0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-4</Uid>
+</InstancePath>
+<Position>0 0 0.011300000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_propeller_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0 0 0.0015000000000000013</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-4</Uid>
+</InstancePath>
+<Position>0 0 0.0083000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_propeller_2_tr_bl-1</Uid>
+</InstancePath>
+<Position>0 0 0.0015000000000000013</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_motor_test_3-5</Uid>
+</InstancePath>
+<Position>0 0 0.011300000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_propeller_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0 0 0.0015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_motor_test_3-5</Uid>
+</InstancePath>
+<Position>0 0 0.0083000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_propeller_2_tr_bl-2</Uid>
+</InstancePath>
+<Position>0 0 0.0015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_antenna_holder_test-1</Uid>
+</InstancePath>
+<Position>0 0.0022679491924310624 0.0033397459621556103</Position>
+<Axis>0 -0.49999999999999467 0.86602540378444171</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_antenna_test-1</Uid>
+</InstancePath>
+<Position>0 0 -0.058000000000000024</Position>
+<Axis>-1.3183898417423734e-16 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_antenna_holder_test-1</Uid>
+</InstancePath>
+<Position>0 -0.0077320508075688354 0.020660254037844453</Position>
+<Axis>0 -0.49999999999999484 0.86602540378444182</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_antenna_test-1</Uid>
+</InstancePath>
+<Position>0 0 -0.040000000000000008</Position>
+<Axis>1.3183898417423734e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_wall_test-1</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0.0030000000000000027</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.0044999999999999971 0.064499999999999974 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_camera_wall_test-1</Uid>
+</InstancePath>
+<Position>0.023500000000000007 -0.0030000000000000027 0.0015000000000000013</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.0059999999999999984 0.064499999999999974 -0.0010000000000000009</Position>
+<Axis>-1 -2.1684043449710089e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_wall_test-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_wall_test-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0.0029999999999999957</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.027000000000000003 0.064499999999999974 -0.0010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_wall_test-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_base_test_3-1</Uid>
+</InstancePath>
+<Position>0.025500000000000002 0.064499999999999974 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_camera_wall_test-2</Uid>
+</InstancePath>
+<Position>0.0235 -0.0030000000000000027 0.0014999999999999944</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_wall_test-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_and_proximity_sensor_weight-1</Uid>
+</InstancePath>
+<Position>0.017999999999999995 0 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_wall_test-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_camera_and_proximity_sensor_weight-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-1</Uid>
+</InstancePath>
+<Position>0.013499999999999998 -0.013499999999999984 0.069999999999999993</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-2</Uid>
+</InstancePath>
+<Position>-0.013499999999999998 -0.013499999999999984 0.069999999999999993</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-1</Uid>
+</InstancePath>
+<Position>-0.013499999999999998 -0.013499999999999984 0.069999999999999993</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-2</Uid>
+</InstancePath>
+<Position>-0.013499999999999998 -0.013499999999999984 0.069999999999999993</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_top_test_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-1</Uid>
+</InstancePath>
+<Position>-0.013499999999999998 0.013500000000000012 0.069999999999999993</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone_battery_cell_1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>drone_top_test_3-1</Uid>
+</InstancePath>
+<Position>0.020000000000000018 -0.010000000000000009 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="drone_antenna_holder_test" uid="drone_antenna_holder_test*:*Défaut" version="259">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_antenna_holder_test.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00094110152190793133</Mass>
+<CenterOfMass>2.0370674607896408e-09 -0.00049634576864971032 0.010419198342323027</CenterOfMass>
+<Inertia>3.3392915764434817e-08 5.0182738401604071e-08 2.4962462698705997e-08 2.5849588006206801e-09 -1.1200684489948608e-14 2.9162151030672722e-15</Inertia>
+</MassProperties>
+<GeometryFile name="drone_antenna_holder_test_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_antenna_test" uid="drone_antenna_test*:*Défaut" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_antenna_test.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.032799999999999996</Mass>
+<CenterOfMass>0 0 -0.0038314295222245092</CenterOfMass>
+<Inertia>8.7908062706846506e-06 8.7908062706846506e-06 6.4055397546142254e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_antenna_test_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_arm_single_test_2_tl_br" uid="drone_arm_single_test_2_tl_br*:*Défaut" version="1011">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_arm_single_test_2_tl_br.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0068469637400900823</Mass>
+<CenterOfMass>-0.00011657640817340231 0.061037498975827983 0.0021074901885463912</CenterOfMass>
+<Inertia>4.6018431505699775e-06 1.5800553957661936e-07 4.742328803522393e-06 3.6851488000224392e-09 3.8191256844076656e-10 -4.4289576986049979e-08</Inertia>
+</MassProperties>
+<GeometryFile name="drone_arm_single_test_2_tl_br_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_arm_single_test_2_tr_bl" uid="drone_arm_single_test_2_tr_bl*:*Défaut" version="977">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_arm_single_test_2_tr_bl.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0068469630253905588</Mass>
+<CenterOfMass>-0.00011656686315053104 0.061037502482876087 0.0018925100183584762</CenterOfMass>
+<Inertia>4.6018422965837563e-06 1.5800552901932972e-07 4.7423279440874308e-06 -3.6850978277272965e-09 -3.8177097939288628e-10 -4.4289044671629445e-08</Inertia>
+</MassProperties>
+<GeometryFile name="drone_arm_single_test_2_tr_bl_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_base_test_3" uid="drone_base_test_3*:*Défaut" version="874">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_base_test_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015266276862112403</Mass>
+<CenterOfMass>0.015000000000000001 0.030413343580259017 0.002</CenterOfMass>
+<Inertia>7.9686336012081419e-06 1.717212171777669e-06 9.6451357013535101e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_base_test_3_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_battery_cell_1" uid="drone_battery_cell_1*:*Défaut" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_battery_cell_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.059999999999999998</Mass>
+<CenterOfMass>0 0 0.035000000000000017</CenterOfMass>
+<Inertia>2.8098928197297446e-05 2.8098928197297446e-05 7.2838974183990249e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_battery_cell_1_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_camera_and_proximity_sensor_weight" uid="drone_camera_and_proximity_sensor_weight*:*Défaut" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_camera_and_proximity_sensor_weight.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040000000000000001</Mass>
+<CenterOfMass>0.0089999999999999993 0.0049999999999999992 0.0047862823653085076</CenterOfMass>
+<Inertia>6.9557200020051613e-07 1.4099541203730128e-06 1.3591823458658342e-06 0 0 -5.2310768304219237e-13</Inertia>
+</MassProperties>
+<GeometryFile name="drone_camera_and_proximity_sensor_weight_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_camera_wall_test" uid="drone_camera_wall_test*:*Défaut" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_camera_wall_test.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0022921156049797299</Mass>
+<CenterOfMass>0.01309867757647158 0.01015947919220863 0.0014999999999999998</CenterOfMass>
+<Inertia>9.8259458477035682e-08 1.2375362309991163e-07 2.186388965213451e-07 0 0 -3.0710592640717374e-09</Inertia>
+</MassProperties>
+<GeometryFile name="drone_camera_wall_test_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_chip_2_test" uid="drone_chip_2_test*:*Défaut" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_chip_2_test.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01</Mass>
+<CenterOfMass>0 0 0.0015000000000000002</CenterOfMass>
+<Inertia>5.3835367084795227e-07 5.3835367084795237e-07 1.0618343791423916e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_chip_2_test_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_esc_1_1_test" uid="drone_esc_1_1_test*:*Défaut" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_esc_1_1_test.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0045000000000000005</Mass>
+<CenterOfMass>0.01175 0.0060000000000000001 0.00125</CenterOfMass>
+<Inertia>5.6343750000000018e-08 2.0943750000000001e-07 2.6109375000000001e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_esc_1_1_test_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_fc_test" uid="drone_fc_test*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_fc_test.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014999999999999999</Mass>
+<CenterOfMass>0.016500000000000001 0.016500000000000004 0.0015</CenterOfMass>
+<Inertia>1.3174433817628703e-06 1.3174433817628705e-06 2.6125367080637741e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_fc_test_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_motor_test_3" uid="drone_motor_test_3*:*Défaut" version="783">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_motor_test_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01</Mass>
+<CenterOfMass>0.00031851522822486507 0.00031851530348302388 0.0025290314994017159</CenterOfMass>
+<Inertia>3.0076847891404199e-07 2.9810667222008321e-07 4.0106404927730614e-07 1.124048760894434e-08 1.124049154435824e-08 -2.2721274336399916e-08</Inertia>
+</MassProperties>
+<GeometryFile name="drone_motor_test_3_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.68627450980392157" g="0.6588235294117647" b="0.63921568627450975" a="1"/>
+<Diffuse r="0.68627450980392157" g="0.6588235294117647" b="0.63921568627450975" a="1"/>
+<Specular r="0.34313725490196079" g="0.32941176470588235" b="0.31960784313725488" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_pillar_test_2" uid="drone_pillar_test_2*:*Défaut" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_pillar_test_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00037472917172019045</Mass>
+<CenterOfMass>0 0 0.0099999999999999985</CenterOfMass>
+<Inertia>1.336409136078105e-08 1.336409136078105e-08 1.7462379402160874e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_pillar_test_2_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_propeller_2_tl_br" uid="drone_propeller_2_tl_br*:*Défaut" version="258">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_propeller_2_tl_br.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013591771119401339</Mass>
+<CenterOfMass>6.2782672784602287e-12 -3.0054816903192911e-13 -0.00013654023366223457</CenterOfMass>
+<Inertia>6.6878929643460753e-09 8.3698629203444716e-07 8.4230803636261438e-07 0 0 -1.2369136319665996e-08</Inertia>
+</MassProperties>
+<GeometryFile name="drone_propeller_2_tl_br_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_propeller_2_tr_bl" uid="drone_propeller_2_tr_bl*:*Défaut" version="551">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_propeller_2_tr_bl.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013591765923234771</Mass>
+<CenterOfMass>1.19503971537935e-12 -2.9281418394781325e-14 0.0001365405354565704</CenterOfMass>
+<Inertia>6.6879020099008956e-09 8.3697880572861285e-07 8.4230057195809286e-07 0 0 -1.2369029069616477e-08</Inertia>
+</MassProperties>
+<GeometryFile name="drone_propeller_2_tr_bl_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone_top_test_3" uid="drone_top_test_3*:*Défaut" version="825">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone_top_test_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011175377260713786</Mass>
+<CenterOfMass>0.015000000000000001 0.029323067981096847 0.0015000000000000002</CenterOfMass>
+<Inertia>6.0401869060719249e-06 1.0425872200991045e-06 7.0660110602799576e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drone_top_test_3_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

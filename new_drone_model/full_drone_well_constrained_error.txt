@@ -1,0 +1,24 @@
+Constrained Instances: 'drone_arm_single_test_2_tl_br-3', 'drone_arm_single_test_2_tl_br-3', 'drone_esc_1_1_test-1', 'drone_esc_1_1_test-1'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'drone_arm_single_test_2_tr_bl-1', 'drone_arm_single_test_2_tr_bl-1', 'drone_esc_1_1_test-3', 'drone_esc_1_1_test-3'
+Constraint Name: Width2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'drone_arm_single_test_2_tr_bl-2', 'drone_arm_single_test_2_tr_bl-2', 'drone_esc_1_1_test-2', 'drone_esc_1_1_test-2'
+Constraint Name: Width3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'drone_arm_single_test_2_tl_br-2', 'drone_arm_single_test_2_tl_br-2', 'drone_esc_1_1_test-4', 'drone_esc_1_1_test-4'
+Constraint Name: Width4
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'drone_camera_wall_test-1', 'drone_camera_wall_test-1', 'drone_camera_and_proximity_sensor_weight-1', 'drone_camera_and_proximity_sensor_weight-1'
+Constraint Name: Width5
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'drone_battery_cell_1-1', 'drone_battery_cell_1-2', 'drone_top_test_3-1', 'drone_top_test_3-1'
+Constraint Name: Width6
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
