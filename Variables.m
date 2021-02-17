@@ -55,7 +55,9 @@ CTgain = 0.001;
 density = 1.225;
 diameter = 0.12; % Diameter = length of 2 blades
 
-
+% Environment variables
+air_damping = 1e-2;
+dp = 0;
 
 
 
