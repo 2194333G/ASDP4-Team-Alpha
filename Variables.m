@@ -6,7 +6,7 @@
 xRef = 1;
 yRef = 1;
 zRef = 1;
-yawRateRef = 1;
+yawRef = 1;
 
 % For the PID Controllers:
 %   Kp = proportional gain
