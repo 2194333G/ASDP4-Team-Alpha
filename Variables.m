@@ -55,12 +55,14 @@ CTgain = 0.001;
 density = 1.225;
 diameter = 0.1016; % Diameter = length of 2 blades
 R = 0.0508;
-Cd = 0;
+Cd = 1;
+v_bridge = 7.4;
 
 % Environment variables
 rho = 1.225;
 air_damping = 1e-2;
 dp = 0;
+g = 9.81;
 
 
 
