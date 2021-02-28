@@ -51,12 +51,11 @@ Ke = 0.0182;
 Kt = 0.0182;
 b = 2.61*10^-5.55;
 Jm = 1.91*10^-6;
-CTgain = 0.001;
 density = 1.225;
 diameter = 0.1016; % Diameter = length of 2 blades
-R = 0.0508;
-Cd = 1;
-v_bridge = 7.4;
+R = diameter/2;
+Cd = 6e-3;
+bridge_v = 7.4;
 
 % Environment variables
 rho = 1.225;
