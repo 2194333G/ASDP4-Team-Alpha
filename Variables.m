@@ -3,10 +3,10 @@
 
 % CONTROLLERS SUBSYSTEM VARIABLES
 % Reference Variables
-xRef = 1;
-yRef = 1;
-zRef = 1;
-yawRef = 1;
+xRef = 0;
+yRef = 0;
+zRef = 0;
+yawRef = 0;
 
 % For the PID Controllers:
 %   Kp = proportional gain
