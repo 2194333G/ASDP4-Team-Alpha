@@ -44,17 +44,17 @@ yKi = 0;
 yKd = 0;
 
 % % MOTORS SUBSYSTEM VARIABLES
-% L = 0.63*10^-3;
-% Rm = 0.83*2;
-% Ke = 0.0182;
-% Kt = 0.0182;
-% b = 2.61*10^-5.55;
-% Jm = 1.91*10^-6;
-% density = 1.225;
-% diameter = 0.1016; % Diameter = length of 2 blades
-% R = diameter/2;
-% Cd = 6e-3;
-% bridge_v = 7.4;
+L = 0.63*10^-3;
+Rm = 0.83*2;
+Ke = 0.0182;
+Kt = 0.0182;
+b = 2.61*10^-5.55;
+Jm = 1.91*10^-6;
+density = 1.225;
+diameter = 0.1016; % Diameter = length of 2 blades
+R = diameter/2;
+Cd = 6e-3;
+bridge_v = 7.4;
 
 % Environment variables
 rho = 1.225;
