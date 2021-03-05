@@ -59,7 +59,7 @@ bridge_v = 7.4;
 V1_trim = 3.5165;
 F1_trim = 0.7401;
 
-V3_trim = 4.11;
+V3_trim = 4.0965;
 F3_trim = 0.93786;
 
 % Environment variables
