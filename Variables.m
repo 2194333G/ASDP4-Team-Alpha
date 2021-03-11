@@ -63,7 +63,7 @@ V3_trim = 4.0965;
 F3_trim = 0.93786;
 
 
-T_trim = 0.3421*9.81/4;
+T_trim = 0.34209*9.81/4;
 
 
 % Environment variables
