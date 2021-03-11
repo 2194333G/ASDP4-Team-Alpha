@@ -62,6 +62,10 @@ F1_trim = 0.7401;
 V3_trim = 4.0965;
 F3_trim = 0.93786;
 
+
+T_trim = 0.3421*9.81/4;
+
+
 % Environment variables
 rho = 1.225;
 air_damping = 1*10^-3;
