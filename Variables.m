@@ -74,9 +74,12 @@ air_damping = 1*10^-3;
 dp = 0;
 g = -9.81;
 
+%Inertia Values (Kg*m^2)
+Lxx=0.0004607752;
+Lyy=0.0007901901;
+Lzz=0.00096724103;
 
-
-
-
+%mass (Kg)
+m=0.342;
 
 
