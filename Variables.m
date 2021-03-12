@@ -56,14 +56,16 @@ R = diameter/2;
 Cd = 6e-3;
 bridge_v = 7.4;
 
-V1_trim = 3.5165;
-F1_trim = 0.7401;
+% % OLD TRIM VALUES:
+% V1_trim = 3.5165;
+% F1_trim = 0.7401;
+% V3_trim = 4.0965;
+% F3_trim = 0.93786;
 
-V3_trim = 4.0965;
-F3_trim = 0.93786;
-
-
-T_trim = 0.34209*9.81/4;
+% NEW TRIM VALUES:
+V1_trim = 3.81;
+V3_trim = 3.81;
+T_trim = 0.34209*9.81/4; % = 0.83898
 
 
 % Environment variables
