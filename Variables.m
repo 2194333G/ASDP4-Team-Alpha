@@ -43,18 +43,18 @@ yKp = 0;
 yKi = 0;
 yKd = 0;
 
-% % MOTORS SUBSYSTEM VARIABLES
-L = 0.63*10^-3;
-Rm = 0.83*2;
-Ke = 0.0182;
-Kt = 0.0182;
-b = 2.61*10^-5.55;
-Jm = 1.91*10^-6;
-density = 1.225;
-diameter = 0.1016; % Diameter = length of 2 blades
-R = diameter/2;
-Cd = 6e-3;
-bridge_v = 7.4;
+% % % MOTORS SUBSYSTEM VARIABLES
+% L = 0.63*10^-3;
+% Rm = 0.83*2;
+% Ke = 0.0182;
+% Kt = 0.0182;
+% b = 2.61*10^-5.55;
+% Jm = 1.91*10^-6;
+% density = 1.225;
+% diameter = 0.1016; % Diameter = length of 2 blades
+% R = diameter/2;
+% Cd = 6e-3;
+% bridge_v = 7.4;
 
 % % OLD TRIM VALUES:
 % V1_trim = 3.5165;
@@ -82,4 +82,10 @@ Lzz=0.00096724103;
 %mass (Kg)
 m=0.342;
 
-
+%motor variables
+L=0.0005;
+Rm=0.145;
+Ke=1/3800;
+Kt=Ke;
+Jm=0.000005;
+b=1e-6;
