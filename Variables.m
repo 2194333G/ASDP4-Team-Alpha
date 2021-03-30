@@ -1,47 +1,48 @@
 % VARIABLES FOR TEAM APLHA, ASDP4, 2020-2021
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% CONTROLLERS SUBSYSTEM VARIABLES
-% Reference Variables
-xRef = 0;
-yRef = 0;
-zRef = 0;
-yawRef = 0;
-
-% For the PID Controllers:
-%   Kp = proportional gain
-%   Ki = integral gain
-%   Kd = derivative gain
-%   To associate the gains with its controller, a prefix is added.
-
-% Roll Rate PID Controller Variables
-rollRateKp = 0;
-rollRateKi = 0;
-rollRateKd = 0;
-% Pitch Rate PID Controller Variables
-pitchRateKp = 0;
-pitchRateKi = 0;
-pitchRateKd = 0;
-% Yaw Rate PID Controller Variables
-yawRateKp = 0;
-yawRateKi = 0;
-yawRateKd = 0;
-% Z/Altitude PID Controller Variables
-zKp = 0;
-zKi = 0;
-zKd = 0;
-% Yaw PID Controller Variables
-yawKp = 0;
-yawKi = 0;
-yawKd = 0;
-% X PID Controller Variables
-xKp = 0;
-xKi = 0;
-xKd = 0;
-% Y PID Controller Variables
-yKp = 0;
-yKi = 0;
-yKd = 0;
+% WE DON'T REALLY NEED THIS CONTROLLER PART ANYMORE:
+% % CONTROLLERS SUBSYSTEM VARIABLES
+% % Reference Variables
+% xRef = 0;
+% yRef = 0;
+% zRef = 0;
+% yawRef = 0;
+% 
+% % For the PID Controllers:
+% %   Kp = proportional gain
+% %   Ki = integral gain
+% %   Kd = derivative gain
+% %   To associate the gains with its controller, a prefix is added.
+% 
+% % Roll Rate PID Controller Variables
+% rollRateKp = 0;
+% rollRateKi = 0;
+% rollRateKd = 0;
+% % Pitch Rate PID Controller Variables
+% pitchRateKp = 0;
+% pitchRateKi = 0;
+% pitchRateKd = 0;
+% % Yaw Rate PID Controller Variables
+% yawRateKp = 0;
+% yawRateKi = 0;
+% yawRateKd = 0;
+% % Z/Altitude PID Controller Variables
+% zKp = 0;
+% zKi = 0;
+% zKd = 0;
+% % Yaw PID Controller Variables
+% yawKp = 0;
+% yawKi = 0;
+% yawKd = 0;
+% % X PID Controller Variables
+% xKp = 0;
+% xKi = 0;
+% xKd = 0;
+% % Y PID Controller Variables
+% yKp = 0;
+% yKi = 0;
+% yKd = 0;
 
 % % % MOTORS SUBSYSTEM VARIABLES
 % L = 0.63*10^-3;
