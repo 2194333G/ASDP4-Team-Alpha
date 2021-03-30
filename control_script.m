@@ -23,7 +23,7 @@ p_sys = minreal(sys2, 0.001);
 % Then put TF in TF block and used the PID block.
 
 % For q (Pitch Rate Controller):
-sys3 = tf(LinearAnalysisToolProject.LocalVariables(2).Value);
+sys3 = tf(LinearAnalysisToolProject.LocalVariables(4).Value);
 % For minimal realization and pole-zero cancellation:
 q_sys = minreal(sys3, 0.001);
 % Then put TF in TF block and used the PID block.
